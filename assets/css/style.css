@@ -100,12 +100,13 @@ header {
 /* FEATURES CONTAINER*/
 .features-container {
     width: 1280px;
-    height: 560px;
     margin: 0 auto 80px;
 }
 
 .features-heading {
     margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .features-card-container {
@@ -113,3 +114,213 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+.features-card-container > div {
+    background-color: #ffffff;
+    gap: 16px;
+    width: 302px;
+    height: 280px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature-card > img {
+    margin-bottom: 24px;
+}
+
+.feature-card-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.feature-card-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+
+/* VISION */
+.vision-container {
+    width: 1280px;
+    margin: 0 auto 50px;
+}
+
+.vision-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.vision-text {
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+
+.vision-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.vision-card-container > div {
+    background-color: #ffffff;
+    width: 410px;
+    height: 325px;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.vision-card-container > .vision-card1 {
+    background-color: rgba(84, 144, 245, 0.39);
+}
+
+.vision-card-container > .vision-card2 {
+    background-color: #C6E4D6;
+}
+
+.vision-card-container > .vision-card3 {
+    background-color: #F7EBCF;
+}
+
+.vision-card > img {
+    margin-bottom: 32px;
+}
+
+.vision-card > .vision-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.vision-card > .vision-card-text {
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+
+.button-1 {
+    color: #ffffff;
+    background-color: #5490F5;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-2 {
+    color: #ffffff;
+    background-color: #09A15C;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button-3 {
+    color: #ffffff;
+    background-color: #FFC239;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.vision-article {
+    position: relative;
+    background-color: #ffffff;
+    padding: 48px 24px;
+    border-radius: 10px;
+}
+
+.vision-article > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px 0 0 24px;
+}
+
+.vision-article > p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+
+.vision-article > h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* OPINION */
+.opinion-container {
+    width: 1280px;
+    margin: 0 auto 50px;
+}
+
+.opinion-heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.opinion-table {
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #0E0E0E;
+}
+
+.opinion-table table {
+    width: 1216px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgba(14, 14, 14, 0.29);
+}
+
+.opinion-table thead {
+    background-color: #C6E4D6;
+}
+
+.opinion-table thead tr th {
+    padding: 24px;
+}
+
+.opinion-table tbody tr td {
+    padding: 24px;
+}
+
+.opinion-table select {
+    padding: 14px;
+    background-color: #C6E4D6;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.opinion-table select option {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.option-button {
+    text-align: center;
+}
+
