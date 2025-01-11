@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f1f1f3;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px;
+}
+
+.header-name {
+    width: 222px;
+    height: 38px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.header-button button{
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    border: 2px solid #006A50;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-button button:hover{
+    background-color: #006A50;
+    color: #fff;
+}
+
+/* BANNER */
+.banner-container {
+    width: 1280px;
+    height: 560px;
+    display: flex;
+    margin: 0 auto 80px;
+    padding: 100px 60px 80px;
+    background-color: #C6E4D6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.banner-text {
+    width: 622px;
+    height: 326px;
+}
+
+.banner-para {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+
+.banner-description {
+    width: 622px;
+    height:201px;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.banner-text button {
+    width: 270px;
+    height: 56px;
+    background: #006A50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.banner-text button:hover{
+    background-color: #08a07a;
+    color: #fff;
+}
+
+/* FEATURES CONTAINER*/
+.features-container {
+    width: 1280px;
+    height: 560px;
+    margin: 0 auto 80px;
+}
+
+.features-heading {
+    margin-bottom: 32px;
+}
+
+.features-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
